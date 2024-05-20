@@ -1,58 +1,58 @@
 import pandas as pd
 
 
-data_string = """The total instructions executed are 112865, total cycles 42315
+data_string = """The total instructions executed are 528042, total cycles 178750
 
-The total instructions executed are 575849, total cycles 157526
+The total instructions executed are 4067422, total cycles 1199627
 
-The total instructions executed are 1529545, total cycles 417569
+The total instructions executed are 13563604, total cycles 4009738
 
-The total instructions executed are 3109129, total cycles 930431
+The total instructions executed are 31960586, total cycles 9414012
 
-The total instructions executed are 5451426, total cycles 1669043
+The total instructions executed are 62202370, total cycles 18244082
 
-The total instructions executed are 8691610, total cycles 2713171
+The total instructions executed are 107232952, total cycles 31135283
 
-The total instructions executed are 12966507, total cycles 4091210
+The total instructions executed are 169996340, total cycles 49259421
 
-The total instructions executed are 18411293, total cycles 5928211
+The total instructions executed are 253436546, total cycles 73993617
 
-The total instructions executed are 25162792, total cycles 8102635
+The total instructions executed are 360497523, total cycles 104110456
 
-The total instructions executed are 33356176, total cycles 10829256
+The total instructions executed are 494123311, total cycles 142572963
 
-The total instructions executed are 43128275, total cycles 14085164
+The total instructions executed are 657257933, total cycles 189893291
 
-The total instructions executed are 54614260, total cycles 18222279
+The total instructions executed are 852845329, total cycles 246202545
 
-The total instructions executed are 67950972, total cycles 22782298
+The total instructions executed are 1083829555, total cycles 312437107
 
-The total instructions executed are 83273643, total cycles 28007539
+The total instructions executed are 1353154650, total cycles 389379849
 
-The total instructions executed are 100718899, total cycles 34441850
+The total instructions executed are 1663764522, total cycles 481225044
 
-The total instructions executed are 120422082, total cycles 44857279
+The total instructions executed are 2018603038, total cycles 584976046
 
-The total instructions executed are 142520098, total cycles 53259172
+The total instructions executed are 2420614557, total cycles 702525638
 
-The total instructions executed are 167147983, total cycles 66024946
+The total instructions executed are 2872742797, total cycles 833832371
 
-The total instructions executed are 194442544, total cycles 79749095
+The total instructions executed are 3377931992, total cycles 984636814
 
-The total instructions executed are 224539018, total cycles 93231376
+The total instructions executed are 3939125844, total cycles 1152511810
 
-The total instructions executed are 257573861, total cycles 111710477
+The total instructions executed are 4559268554, total cycles 1327248617
 
-The total instructions executed are 293682889, total cycles 128989455
+The total instructions executed are 5241303902, total cycles 1519207178
 
-The total instructions executed are 333002824, total cycles 148255325
+The total instructions executed are 5988176123, total cycles 1736254516
 
-The total instructions executed are 375668208, total cycles 166268378
+The total instructions executed are 6802829111, total cycles 1965544337
 
-The total instructions executed are 421816552, total cycles 193858503
+The total instructions executed are 7688207125, total cycles 2298002472
 """
 
-name = 'chol6 + O2 +znver1'
+name = 'chol1'
 
 
 instructions = {}

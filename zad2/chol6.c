@@ -5,7 +5,6 @@
 #include <time.h>
 #include <sys/time.h>
 #include <float.h>
-#include <float.h>
 #include <immintrin.h> // OPT3
 
 #define IDX(i, j, n) (j+ i*n)
